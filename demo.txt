@@ -1,1 +1,17 @@
 This is my first demo text file
+Steps:git
+cd 
+cd /d
+cd GiT/
+git config --global user.name "Your Name"
+git config --global user.email arun.rathod1922@gmail.com
+git clone <copied url>
+cd <Created git folder>
+ls
+#create any text file and add it to the master
+git add demo.txt
+git status
+#Add commit to add any comment in file <git commit -m "My First Commit on Monday" filename>
+git commit -m "My First Commit on Monday" demo.txt
+#Pust to GitHub Master
+git push -u origin master
